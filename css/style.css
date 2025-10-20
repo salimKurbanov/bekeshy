@@ -109,12 +109,20 @@ img {
 
 /*--------  ------*/
 
+.main_wrapper {
+    padding: 0 40px;
+    flex: 1;
+
+    @media screen and (max-width: 991px) {
+        padding: 0;
+    }
+}
+
 .container {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     background-color: var(--white);
-    flex: 1;
 }
 
 .main_button {

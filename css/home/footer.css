@@ -3,7 +3,6 @@
 footer {
     background-color: var(--red);
     width: 100%;
-    min-height: 190px;
     padding: 10px 20px 30px 20px;
 
     .container {
