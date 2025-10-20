@@ -12,6 +12,7 @@
     /* === Text Colors === */
 
     /* === Background Colors === */
+    --milk            : #F6F3EC;
     
     /* === Gradient Colors === */
     --yellow-gradient : linear-gradient(180.00deg, rgba(252, 165, 3, 1),rgba(251, 210, 133, 1) 100%);;
@@ -73,7 +74,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body{
 	position: relative;
     font-family: var(--font-main);
-    background-color: var(--white);
+    background-color: var(--milk);
     color: var(--black);
     min-height: 100dvh;
 }
@@ -101,3 +102,10 @@ img {
 }
 
 /*--------  ------*/
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--white);
+}
