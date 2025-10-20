@@ -72,6 +72,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 body{
+    display: flex;
+    flex-direction: column;
 	position: relative;
     font-family: var(--font-main);
     background-color: var(--milk);
