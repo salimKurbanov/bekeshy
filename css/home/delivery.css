@@ -1,5 +1,23 @@
 .delivery {
+    position: relative;
+    width: 100%;
+
+    .delivery_back {
+        position: absolute;
+        top: -30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 105%;
+        z-index: 1;
+
+        @media screen and (max-width: 992px) {
+            width: 95%;
+            top: 10%;
+        }
+    }
+
     .delivery_company {
+        position: relative;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -7,6 +25,7 @@
         flex-wrap: wrap-reverse;
         gap: 19px;
         margin-bottom: 18px;
+        z-index: 2;
 
         .delivery_time {
             font-size: 37px;
@@ -30,9 +49,11 @@
     }
 
     h3 {
+        position: relative;
         font-size: 27px;
         text-align: center;
         font-weight: 700;
         color: var(--brown);
+        z-index: 2;
     }
 }
