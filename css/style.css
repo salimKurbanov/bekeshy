@@ -15,6 +15,8 @@
     /* === Background Colors === */
     --milk            : #F6F3EC;
     --red             : #9C1717;
+    --black-red       : #801515;
+
     
     /* === Gradient Colors === */
     --yellow-gradient : linear-gradient(180.00deg, rgba(252, 165, 3, 1),rgba(251, 210, 133, 1) 100%);;
