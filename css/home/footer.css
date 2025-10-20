@@ -1,0 +1,55 @@
+/* Футер */
+
+footer {
+    background-color: var(--red);
+    width: 100%;
+    min-height: 190px;
+    padding: 10px 20px 30px 20px;
+
+    .container {
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 20px;
+        color: var(--white);
+        flex-wrap: wrap;
+
+        .gost {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            border-right: 4px solid var(--white);
+            padding: 20px 8px 10px 0px;
+
+             @media screen and (max-width: 700px) {
+                padding: 0;
+                border: 0;
+            }
+
+            img {
+                width: 109px;
+            }
+
+            .description {
+                font-weight: 900;
+                font-size: 28px;
+                width: min-content;
+                line-height: 150%;
+            }
+        }
+
+        .gost_list {
+            p {
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 150%;
+
+                @media screen and (max-width: 700px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
