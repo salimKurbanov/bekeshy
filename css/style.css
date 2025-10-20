@@ -13,6 +13,7 @@
 
     /* === Background Colors === */
     --milk            : #F6F3EC;
+    --red             : #9C1717;
     
     /* === Gradient Colors === */
     --yellow-gradient : linear-gradient(180.00deg, rgba(252, 165, 3, 1),rgba(251, 210, 133, 1) 100%);;
@@ -110,4 +111,5 @@ img {
     max-width: 1000px;
     margin: 0 auto;
     background-color: var(--white);
+    flex: 1;
 }
