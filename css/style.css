@@ -8,6 +8,7 @@
     --white           : #ffffff;
     --green           : #0A6E6D;
     --brown           : #270000;
+    --yellow          : #FDB93D;
 
     /* === Text Colors === */
 
@@ -126,8 +127,22 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-weight: 600;    
+        font-weight: 700;    
         font-size: 15px;
         padding: 0 20px;
+    }
+}
+
+.icon_btn {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 45px;
     }
 }
