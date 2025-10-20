@@ -1,0 +1,38 @@
+.delivery {
+    .delivery_company {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        gap: 19px;
+        margin-bottom: 18px;
+
+        .delivery_time {
+            font-size: 37px;
+            font-weight: 700;
+            color: var(--white);
+            height: 57px;
+            padding: 0 45px;
+            background-color: var(--green);
+            display: flex;
+            align-items: center;
+            border-radius: 30px;
+        }
+
+        .sdek {
+            height: 50px;
+        }
+
+        .pochta {
+            height: 57px;
+        }
+    }
+
+    h3 {
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        color: var(--brown);
+    }
+}
