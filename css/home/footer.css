@@ -16,6 +16,10 @@ footer {
         color: var(--white);
         flex-wrap: wrap;
 
+        @media screen and (max-width: 991px) {
+            flex-direction: column;
+        }
+
         .gost {
             display: flex;
             gap: 28px;
@@ -23,7 +27,7 @@ footer {
             border-right: 4px solid var(--white);
             padding: 20px 8px 10px 0px;
 
-             @media screen and (max-width: 700px) {
+             @media screen and (max-width: 991px) {
                 padding: 0;
                 border: 0;
             }
@@ -37,6 +41,7 @@ footer {
                 font-size: 28px;
                 width: min-content;
                 line-height: 150%;
+                text-transform: uppercase;
             }
         }
 
