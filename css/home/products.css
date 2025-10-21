@@ -102,6 +102,10 @@
             padding-bottom: 5px;
         }
 
+        @media screen and (max-width: 768px) {
+            bottom: -10px;
+        }
+
         @media screen and (max-width: 600px) {
             bottom: -10px;
 
