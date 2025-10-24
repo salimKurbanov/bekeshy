@@ -3,48 +3,48 @@
 @font-face {
   font-family: 'TildaSans';
   font-weight: 300; 
-  src: url('/fonts/TildaSans-Light.woff2') format('woff2'),
-       url('/fonts/TildaSans-Light.woff') format('woff');
+  src: url('../fonts/TildaSans-Light.woff2') format('woff2'),
+       url('../fonts/TildaSans-Light.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TildaSans';
   font-weight: 400; 
-  src: url('/fonts/TildaSans-Regular.woff2') format('woff2'),
-       url('/fonts/TildaSans-Regular.woff') format('woff');
+  src: url('../fonts/TildaSans-Regular.woff2') format('woff2'),
+       url('../fonts/TildaSans-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TildaSans';
   font-weight: 500; 
-  src: url('/fonts/TildaSans-Medium.woff2') format('woff2'),
-       url('/fonts/TildaSans-Medium.woff') format('woff');
+  src: url('../fonts/TildaSans-Medium.woff2') format('woff2'),
+       url('../fonts/TildaSans-Medium.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TildaSans';
   font-weight: 600; 
-  src: url('/fonts/TildaSans-SemiBold.woff2') format('woff2'),
-       url('/fonts/TildaSans-SemiBold.woff') format('woff');
+  src: url('../fonts/TildaSans-SemiBold.woff2') format('woff2'),
+       url('../fonts/TildaSans-SemiBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TildaSans';
   font-weight: 700; 
-  src: url('/fonts/TildaSans-Bold.woff2') format('woff2'),
-       url('/fonts/TildaSans-Bold.woff') format('woff');
+  src: url('../fonts/TildaSans-Bold.woff2') format('woff2'),
+       url('../fonts/TildaSans-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TildaSans';
   font-weight: 800; 
-  src: url('/fonts/TildaSans-ExtraBold.woff2') format('woff2'),
-       url('/fonts/TildaSans-ExtraBold.woff') format('woff');
+  src: url('../fonts/TildaSans-ExtraBold.woff2') format('woff2'),
+       url('../fonts/TildaSans-ExtraBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TildaSans';
   font-weight: 900; 
-  src: url('/fonts/TildaSans-Black.woff2') format('woff2'),
-       url('/fonts/TildaSans-Black.woff') format('woff');
+  src: url('../fonts/TildaSans-Black.woff2') format('woff2'),
+       url('../fonts/TildaSans-Black.woff') format('woff');
 }
