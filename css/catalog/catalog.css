@@ -1,0 +1,31 @@
+.catalog {
+    h1 {
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .product_list {
+        margin-top: 50px;
+    }
+
+    .product_card {
+        .product_type {
+            width: 32%;
+            position: absolute;
+            top: -18px;
+            right: -14px;
+            /* max-width: 77px; */
+            min-width: 77px;
+            z-index: 10;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
