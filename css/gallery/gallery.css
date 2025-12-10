@@ -109,7 +109,7 @@
         }
 
         @media screen and (max-width: 556px) {
-            padding: 24px;
+            padding: 35px 24px;
             &:not(.bottom) {
                 .image_contaier {
                     &:nth-child(1),
@@ -145,6 +145,14 @@
         }
 
         @media screen and (max-width: 768px) {
+            
+            .content {
+                font-size: 26px;
+                border-radius: 33px;
+            }
+        }
+
+        @media screen and (max-width: 370px) {
             
             .content {
                 font-size: 25px;
