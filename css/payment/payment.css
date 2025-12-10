@@ -1,0 +1,62 @@
+
+
+.payment {
+    max-width: 850px;
+    padding: 40px 16px;
+
+    h1 {
+        font-weight: 900;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        width: max-content;
+        color: var(--brown);
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 26px;
+        text-transform: lowercase;
+        font-weight: 300;
+        color: var(--brown);
+        margin: 0 auto;
+        margin-bottom: 9px;
+        width: max-content;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 14px;
+        margin: 0 auto;
+        width: max-content;
+        margin-top: 27px;
+        text-align: center;
+        font-weight: 300;
+        color: var(--brown);
+
+        @media screen and (max-width: 768px) {
+            margin-top: 17px;
+        }
+    }
+
+
+
+    .payment_grid {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+
+        .image_container {
+            width: max-content;
+
+            &:nth-child(3) {
+                padding: 0 20px;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
